@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 {
 
     QApplication a(argc, argv);
-        QFile styleSheetFile("C:\\Users\\dariu\\OneDrive\\Desktop\\Atom_L7\\SpyBot.qss");
+        QFile styleSheetFile("D:\College\Y1S2\Atom_L7\SpyBot.qss");
 
         styleSheetFile.open(QFile::ReadOnly);
         QString styleSheet=QLatin1String(styleSheetFile.readAll());
